@@ -1,0 +1,94 @@
+#navbar{
+	background-color:#c0c0c0 !important;
+	color:black;
+}
+
+#mainbtn {
+	background: transparent;
+	color: gray;
+	font-family: unset;
+	border-radius:0px;
+	letter-spacing: 2.5px;
+}
+.tile{
+	height:250px;
+	position:relative;
+}
+#jumbotron{
+	background-image: white;
+	background-color:white;
+	background-position: center;
+}
+#jumbotron-iceland{
+	background-image: url('../imgs/iceland/iceland4.jpg');
+	background-position: center;
+}
+#jumbotron-colorado{
+	background-image: url('../imgs/colorado/DSC_0040.JPG');
+	background-position: center;
+}
+
+#about_text{
+	background-color:#BDA0CB;
+}
+#about{
+	height:80%;
+	width:100%;
+}
+
+#about img{
+	height:100%;
+	width:100%;
+	border:none;
+}
+#about_text p{
+font-style: italic;
+}
+.well.wedding-blog {
+	background-image: linear-gradient(to bottom,#fff 0,hsl(0, 0%, 94.5%) 100%);
+	font-family:"Verdana";
+	font-size:large;
+	border:none;
+}
+.center-block{
+	display: table;
+  	margin: auto;
+  	
+}
+.row {
+    display: table;
+}
+
+#travel-well-main{
+	background-color:gray;
+	text-align:center;
+	color:#0000cc;
+	font-size:20px;
+	font-weight:bold;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #f7f6f5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #f7f6f5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #f7f6f5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #f7f6f5); /* Standard syntax (must be last) */
+    border:none;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.hidden{
+	display:none;
+}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 550px;
+      margin: auto;
+  }
+#colorado-nav-tabs li a{
+	font-size:large;
+	color:#0000cc;
+}

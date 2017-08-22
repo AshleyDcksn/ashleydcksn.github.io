@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/services.js"></script>
+<script src="js/common.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">  
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<body ng-app="ngdemo">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+    <nav class="navbar navbar-light navbar-fixed-top" style="background-color: white;">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a style="color:#0000cc;" class="navbar-brand" href="#/">T&A</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a style="color:#0000cc;" href="#/">Home</a></li>
+      <li><a style="color:#0000cc;" href="#/about">About</a></li>
+      <li><a style="color:#0000cc;" href="#/wedding">Our Wedding</a></li>
+      <li class="dropdown">
+        <a style="color:#0000cc;" class="dropdown-toggle" data-toggle="dropdown" href="#/">Florida
+        <span style="color:#0000cc;" class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a style="color:#0000cc;" href="#">St. Pete</a></li>
+          <li><a style="color:#0000cc;" href="#">Sarasota</a></li>
+          <li><a style="color:#0000cc;" href="#">Tampa</a></li>
+        </ul>
+      </li>
+     <li><a style="color:#0000cc;" href="#/iceland">Iceland</a></li>
+    </ul>
+  </div>
+    </nav>
+ 	<div ng-view autoscroll="true"></div>	
+
+      <footer>
+        <p>© T&A Est 2017</p>
+      </footer>
+ </body>
+</html> 
